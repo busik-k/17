@@ -1,0 +1,13 @@
+start
+new i number
+new a number
+set a 19
+set i 18
+if (a > i)
+  log string "хвататет денег на товар"
+close
+  
+if (i > a)
+  log string "не хватает денег на товар"
+close
+finish
