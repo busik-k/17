@@ -1,0 +1,13 @@
+start 
+new i number
+new a number
+set a 17
+set i 18
+if (a > i)
+  log string "он может купить алкоголь"
+close
+  
+if (i > a)
+  log string "он не может купить алкоголь"
+close
+finish
