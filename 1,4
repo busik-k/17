@@ -1,0 +1,26 @@
+start
+new a number
+new b number
+new c number
+new d number
+new x number
+set a 11
+set b 8
+set c 4
+set d 2
+set x 12
+if (x > a)
+  log string "x больше всех"
+close
+if (a > x)
+  log string "a>x>b"
+close
+if (b > x)
+  log string "b>x>c"
+close 
+if (c > x)
+  log string "c>x>d"
+close
+if (d > x)
+  log string "x меньше вceх"
+finish
