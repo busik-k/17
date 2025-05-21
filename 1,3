@@ -1,0 +1,12 @@
+start
+new AB string
+new BC string
+new CD string
+new AD string
+set AB "Пешком"
+set BC "Автобус и 10 минут"
+set CD "Пешком до дома"
+set AD "Пешком весь путь"
+log string "Первый путь: " >> AB >> ", " >> BC >> ", ">> CD
+log string "Второй путь: " >> AD 
+finish
